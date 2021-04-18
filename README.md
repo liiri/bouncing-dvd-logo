@@ -1,9 +1,12 @@
-# bouncing-dvd-logo
+# bouncing-dvd-logo - apiiro version
 
 Will it hit the corner?
 
-__Preview__ : 
+```bash
+docker build -t dvd .
 
-![preview](https://i.imgur.com/sgYsqnc.gif)
+docker run --rm -it -p 8080:80 dvd
 
-
+docker tag dvd gcr.io/apiiro/tools/dvd:1.0
+docker push gcr.io/apiiro/tools/dvd:1.0
+```
