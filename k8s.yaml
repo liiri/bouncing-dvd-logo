@@ -31,5 +31,6 @@ spec:
       containers:
         - name: apiiro-dvd
           image: gcr.io/apiiro/tools/dvd:1.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 80

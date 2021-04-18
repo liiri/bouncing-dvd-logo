@@ -7,8 +7,8 @@ let hueDegrees = 0;
 const dvd = {
     x: 200,
     y: 200,
-    xspeed: 10,
-    yspeed: 10,
+    xspeed: 5,
+    yspeed: 5,
     img: new Image()
 };
 
